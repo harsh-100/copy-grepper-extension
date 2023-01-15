@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "copy-grepper Extension",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html"
+  },
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "background",
+    "http://*/",
+    "https://*/",
+    "https://stackoverflow.com"
+  ],
+  "host_permissions": ["*://*/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["change.js"],
+      "use_dynamic_url": true
+    }
+  ],
+  "content_script": [
+    {
+      "resources": ["change.js"],
+      "use_dynamic_url": true
+    }
+  ]
+}
