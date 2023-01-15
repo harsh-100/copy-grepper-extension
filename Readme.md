@@ -12,10 +12,10 @@ So this is how you can save your time to select all the text and copy , it will 
 ### Installing
 
 * Simply download a zip file of the project 
-* Just expand the folder 
+* Just extract the folder 
 * Go to your google chrome browser setting and search for 'Extension'
 * Just open the developer mode there , so you can add this extension (we have not paid $25 yet 😂)
-* Click on load extension , then go to the folder you just expand 
+* Click on load extension , then go to the folder you just extracted 
 * Hurray 🥳 , you have done with installing the extension 
 
 ### Executing program
